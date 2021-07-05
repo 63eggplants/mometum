@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  color: whitesmoke;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: white 0.3rem solid;
+}
+
+input:focus {
+  outline: none;
+  color: whitesmoke;
+}
+
+input::placeholder {
+  color: whitesmoke;
+}
+
+#weather {
+  align-self: flex-end;
+  padding-right: 1em;
+}
+
+#clock {
+  padding-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 10rem;
+}
+
+#login {
+  font-size: 1rem;
+}
+
+#login-form input {
+  font-size: 2rem;
+}
+
+#greeting {
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+#todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#todo-form input {
+  font-size: 1.25rem;
+}
+
+#todo-list {
+  font-size: 1.25rem;
+  align-self: flex-start;
+}
+
+#quote {
+  position: absolute;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
