@@ -5,7 +5,7 @@ Momentum is a web application with a personal dashboard featuring to-do, weather
 ## Technology Stack
 * HTML
 * CSS
-* JavaScript
+* VanilaJS
 
 ## Key Features
 * Enter username and track your username 
